@@ -1,0 +1,102 @@
+#newsletterJoinMessage 
+{
+    margin-top: 50px;
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+}
+
+#newsletterRabatMessage 
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#newsLetterConteiner 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#newsletterForm
+{
+    margin: 100px 0 100px 0;
+}
+
+.newsletterFormInput 
+{
+    width: 800px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#newsletterFormButton 
+{
+    height: 44px;
+    border: none;
+    width: 80px;
+    background-color: rgb(0, 82, 7);
+    color: white;
+    font-weight: bold;
+}
+#newsletterFormButton:active
+{
+    background-color: rgb(0, 59, 5);
+
+}
+#newsletterFormButton:hover {
+    cursor: pointer;
+}
+
+.newsletterInputLabel {
+    font-size: 20px;
+}
+
+
+@media (max-width: 900px) 
+{
+    #newsletterJoinMessage 
+    {
+        font-size: 28px; 
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #newsletterRabatMessage 
+    {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #newsletterForm 
+    {
+        margin: 50px 10px; 
+        width: 100%; 
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newsletterFormInput 
+    {
+        width: 90%; 
+        font-size: 16px;
+        height: 35px;
+    }
+
+    #newsletterFormButton
+    {
+        width: 90%;
+        height: 40px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .newsletterInputLabel 
+    {
+        font-size: 16px;
+    }
+}
