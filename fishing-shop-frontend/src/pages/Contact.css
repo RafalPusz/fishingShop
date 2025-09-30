@@ -1,0 +1,78 @@
+.contactConteiner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactFormConteiner
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    margin: 50px 0 50px 0;
+    height: 500px;
+}
+.contactFormConteiner > .ContactForm
+{
+    flex:1;
+    text-align: center;
+    font-size: 19px;
+    border-right: 3px solid rgba(68, 68, 68, 0.24);
+}
+.contactInputs
+{
+    width: 500px;
+    height: 30px;
+    font-size: 15px;
+}
+.contactFormConteiner > .contactDataConteiner
+{
+    flex:1;
+    text-align: center;
+    overflow: auto;
+    height: 500px;
+    font-size: 20px;
+}
+#contactTextArea
+{
+    width: 90%;
+    height: 200px;
+}
+.ContactDataLinks
+{
+    text-decoration: none;
+    color: black;
+}
+.ContactDataLinks:hover
+{
+    text-decoration: underline;
+}
+p > h3 
+{
+    margin: 40px 0 40px 0;
+}
+
+@media (max-width: 800px)
+{
+    .contactFormConteiner
+    {
+        flex-direction: column;
+    }
+    .contactFormConteiner 
+    {
+        flex-direction: column;
+        height: auto; 
+        margin: 20px 0;
+    }
+
+    .contactFormConteiner > .ContactForm,
+    .contactFormConteiner > .contactDataConteiner 
+    {
+        border-right: none; 
+        border-bottom: 3px solid rgba(68, 68, 68, 0.24); /* możesz dodać dolny border */
+        height: auto;
+        overflow: visible;
+        margin-bottom: 20px;
+    }
+}
